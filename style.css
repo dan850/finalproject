@@ -10,9 +10,9 @@
   
   /* Header/logo Title */
   .header {
+      background-image: url(images/header.jpg);
     padding: 60px;
     text-align: right;
-    background: #1abc9c;
    
     color: white;
   }
@@ -116,7 +116,7 @@
     height: 521px;
     margin: 6px 7px 10px;
     padding: 87px 88px 33px 45px;
-    background-color: DodgerBlue;
+    background-color: rgb(255, 255, 255);
     align-content: center;
   }
   
