@@ -85,8 +85,7 @@
     flex-wrap: nowrap;
   }
   
-  /* Create two unequal columns that sits next to each other */
-  /* Sidebar/left column */
+  
   .side {
     flex: 29%;
     background-color: #f1f1f1;
@@ -100,15 +99,7 @@
     padding: 20px;
   }
   
-  /* Fake image, just for this example */
-  .fakeimg {
-    background-color: #aaa;
-    /* border-radius: 50%; */
-    width: 100%;
-    padding: 20px;
-  }
   
-  /* smallbox class is for the tetris grid*/
   
   .flex-round-descriptions {
     display: flex;
