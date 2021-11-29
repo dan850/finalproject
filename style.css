@@ -79,8 +79,7 @@
   
   
   
-  /* Column container */
-  .row {
+  .flexarea {
     display: flex;
     flex-wrap: nowrap;
   }
@@ -169,7 +168,7 @@
     background-color: #f1f1f1;
     color: black;
     width: 300px;
-    height: 900px;
+    height: 620px;
     padding: 50px;
     margin: 20px;
     text-align: center;
