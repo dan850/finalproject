@@ -157,11 +157,11 @@
   }
   
   .discription {
+    color: white;
     text-align: center;
     line-height: 25px;
     font-size: 18px;
     color: rgb(0, 0, 0);
-    word-wrap: break-word;
   }
 
 
@@ -184,6 +184,7 @@
       padding: 20px;
       text-align: center;
       background: #ddd;
+      font-size: large;
     }
   
   
