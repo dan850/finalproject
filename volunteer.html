@@ -57,10 +57,7 @@
 
     <div class="flexarea">
     
-
-
-
-    <div class="main"> <!--start main-->
+<div class="main"> <!--start main-->
 
       <h1>Volunteer</h1>
 
@@ -75,7 +72,7 @@
   
 
 <!--CODE FOR THE FORM-->
-<form class="form-descriptions" action="">
+<form class="form-descriptions" id="formFeedback" action="">
 
 <h1>Volunteer Sign-Up!</h1>
 
@@ -134,12 +131,17 @@
 </div>
 
       
-
-<button type="reset">Reset</button>
-<button type="submit">Submit</button>
 </form>
     
+<h1 id="formFeedback">We Appreciate Your Interest</h1>
+<button onclick="displayResult()">Submit</button>
+<button type="reset">Reset</button>
 
+<script>
+function displayResult() {
+  document.getElementById("formFeedback").innerHTML = "Thank You! Your information has been submited. We will get back to you soon.";
+}
+</script>
 
       
       </div>
@@ -150,8 +152,6 @@
           <p class="discription" style="color: white;"></p>
       
         </div>
-     
-
 
   </div>
   
